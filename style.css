@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: SpecialElite;
-    src: url(fontes/SpecialElite-Regular.ttf);
+    src: url(3.fontes/SpecialElite-Regular.ttf);
 }
 
 body {
@@ -58,6 +58,10 @@ article.pensador img {
     border-radius: 10px;
 }
 
+article.pensador a {
+    text-decoration: none;
+}
+
 article.pensador p {
     margin: 10px;
 
@@ -73,7 +77,7 @@ article.pensador p {
 
 
 
-section.pensamento {
+/*section.pensamento {
     padding: 10px;
     width: 90%;
     margin: 20px 0;
@@ -83,11 +87,20 @@ section.pensamento {
     background-color: white;
 
     border-radius: 10px;
-}
+}*/
 
-section.pensamento p {
+section.pensamentos p {
+    padding: 23px;
+    width: 90%;
+    margin: 25px 0;
+
+    color: black;
+    font-size: 1.5em;
+    background-color: white;
+
+    border-radius: 10px;
+
     text-indent: 0;
-    margin: 12px;
 }
 
 
