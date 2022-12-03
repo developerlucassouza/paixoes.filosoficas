@@ -108,12 +108,12 @@ section.pensamentos p {
 
 
 div.center {
-    display: inline;
+    display: block;
     margin: auto;
 
     padding: 10px;
 
-    width: 95%;
+    width: 100%;
 }
 
 div.center * {
