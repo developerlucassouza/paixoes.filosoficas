@@ -31,6 +31,48 @@ img#pensador {
     margin: 30px auto;
 }
 
+
+
+
+
+article.pensador {
+    display: flex;
+    justify-content: space-around;
+
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+article.pensador img {
+    width: 200px;
+    height: 200px;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+article.pensador p {
+    margin: 10px;
+
+    text-align: center;
+    text-indent: 0%;
+
+    font-size: 2em;
+
+    color: black;
+}
+
+
+
+
+
 section.pensamento {
     padding: 10px;
     width: 90%;
@@ -47,6 +89,34 @@ section.pensamento p {
     text-indent: 0;
     margin: 12px;
 }
+
+
+
+
+
+div.center {
+    display: inline;
+    margin: auto;
+
+    padding: 10px;
+
+    width: 95%;
+}
+
+div.center * {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.center article.pensador {
+    display: inline-block;
+}
+
+
+
+
+
+
 
 /* ===== Cabeçalho ===== */
 
@@ -66,6 +136,8 @@ main {
     width: 90%;
     max-width: 1000px;
     margin: auto;
+
+    height: 95vw;
 }
 
 main p {
