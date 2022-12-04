@@ -24,8 +24,8 @@ h1 {
 /* ===== Tags ===== */
 
 img#pensador {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     display: block;
     margin: 30px auto;
@@ -36,11 +36,9 @@ img#pensador {
 
 
 article.pensador {
-    display: flex;
-    justify-content: space-around;
+    display: inline;
 
-    width: 250px;
-    height: 250px;
+    width: 22%;
     padding: 10px;
     margin: 10px;
 
@@ -49,8 +47,7 @@ article.pensador {
 }
 
 article.pensador img {
-    width: 200px;
-    height: 200px;
+    width: 90%;
 
     display: block;
     margin: auto;
@@ -63,12 +60,11 @@ article.pensador a {
 }
 
 article.pensador p {
-    margin: 10px;
-
+    margin: 7px 0px;
     text-align: center;
     text-indent: 0%;
 
-    font-size: 2em;
+    font-size: 1.1em;
 
     color: black;
 }
@@ -91,7 +87,7 @@ article.pensador p {
 
 section.pensamentos p {
     padding: 23px;
-    width: 90%;
+    width: 85%;
     margin: 25px 0;
 
     color: black;
@@ -113,16 +109,12 @@ div.center {
 
     padding: 10px;
 
-    width: 100%;
-}
-
-div.center * {
-    margin-right: auto;
-    margin-left: auto;
+    width: 95%;
 }
 
 div.center article.pensador {
     display: inline-block;
+    margin: 10px 10px;
 }
 
 
