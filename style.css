@@ -38,7 +38,7 @@ img#pensador {
 article.pensador {
     display: inline;
 
-    width: 22%;
+    width: 27%;
     padding: 10px;
     margin: 10px;
 
@@ -60,7 +60,7 @@ article.pensador a {
 }
 
 article.pensador p {
-    margin: 7px 0px;
+    margin: 10px 0px;
     text-align: center;
     text-indent: 0%;
 
