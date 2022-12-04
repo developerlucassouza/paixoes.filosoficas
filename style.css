@@ -64,7 +64,7 @@ article.pensador p {
     text-align: center;
     text-indent: 0%;
 
-    font-size: 1.1em;
+    font-size: 100%;
 
     color: black;
 }
@@ -109,7 +109,7 @@ div.center {
 
     padding: 10px;
 
-    width: 95%;
+    width: 100%;
 }
 
 div.center article.pensador {
