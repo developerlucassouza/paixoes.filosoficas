@@ -97,8 +97,11 @@ section.pensamentos p {
 
 
 div.center {
-    display: block;
+    display: flex;
     margin: auto;
+
+    justify-content: center;
+    flex-wrap: wrap;
 
     padding: 10px;
 
