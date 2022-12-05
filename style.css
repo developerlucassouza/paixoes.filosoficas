@@ -73,17 +73,18 @@ article.pensador p {
 
 
 
-/*section.pensamentos {
-
-}*/
+section.pensamentos {
+    width: 94%;
+    margin: auto;
+}
 
 section.pensamentos p {
-    padding: 23px;
-    width: 80%;
+    padding: 20px;
+    width: 90%;
     margin: 25px auto;
 
     color: black;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: white;
 
     border-radius: 10px;
@@ -134,7 +135,7 @@ header h1 {
 /* ===== Conteúdo ===== */
 
 main {
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     margin: auto;
 
