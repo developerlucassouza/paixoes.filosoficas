@@ -80,6 +80,7 @@ article.pensador p {
 section.pensamentos {
     width: 94%;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 section.pensamentos p {
