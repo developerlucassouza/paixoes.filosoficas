@@ -100,6 +100,14 @@ section.pensamentos p {
     text-align: left;
 }
 
+a.autor {
+    text-decoration: none;
+}
+
+a.autor:hover {
+    text-decoration: underline;
+}
+
 
 
 
