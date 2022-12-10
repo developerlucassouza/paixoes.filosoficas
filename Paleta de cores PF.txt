@@ -1,0 +1,11 @@
+--- Fontes ---
+Special Elite
+
+
+--- Cores ---
+Azul da meia noite	= #020355
+Violeta russa		= #3E1648
+			  #18081C
+Sangue vermelho 	= #640000
+Preto Estranho		= #262626
+Dark Sienna 		= #2E1915
