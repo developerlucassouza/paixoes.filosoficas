@@ -165,6 +165,10 @@ nav.page a {
     background-color: orange;
 }
 
+nav.page a.ativo {
+    background-color: blue;
+}
+
 nav.page a:hover {
     text-decoration: underline;
 }
