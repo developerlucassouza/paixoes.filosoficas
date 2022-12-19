@@ -48,6 +48,8 @@ div.pensador {
     margin-top: 10px;
 
     width: 24%;
+    min-width: 120px;
+    max-width: 200px;
 
     background-color: none;
 }
