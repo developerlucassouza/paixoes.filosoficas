@@ -31,6 +31,14 @@ a:hover {
 
 /* ===== Tags ===== */
 
+div.space {
+    height: 100px;
+}
+
+
+
+
+
 img#pensador {
     width: 250px;
     height: 250px;
@@ -99,13 +107,14 @@ section.pensamentos {
 section.pensamentos p {
     padding: 20px;
     width: 90%;
-    margin: 25px auto;
+    margin: 30px auto;
 
     color: black;
     font-size: 1.2em;
     background-color: white;
 
-    border-radius: 10px;
+    border-radius: 7.5px;
+    box-shadow: 1px 1px 1px black;
 
     text-indent: 0;
     text-align: left;
@@ -218,4 +227,3 @@ main p {
     text-indent: 50px;
     text-align: justify;
 }
-
