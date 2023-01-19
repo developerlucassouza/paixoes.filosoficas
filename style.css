@@ -5,6 +5,10 @@
     src: url(3.fontes/SpecialElite-Regular.ttf);
 }
 
+:root {
+    --cor-nav: orange
+}
+
 body {
     font-family: SpecialElite, Arial, Helvetica, sans-serif;
     color: white;
@@ -188,7 +192,7 @@ nav.page a {
     text-decoration: none;
 
     color: white;
-    background-color: orange;
+    background-color: var(--cor-nav);
 }
 
 nav.page a.ativo {
@@ -196,6 +200,66 @@ nav.page a.ativo {
 }
 
 nav.page a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    text-align: justify;
+}
+
+nav.menu a {
+    display: block;
+    /*width: 20%;
+    max-width: 14px;*/
+    margin: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+    border-radius: 5px;
+
+    text-indent: 0%;
+    text-decoration: none;
+
+    color: white;
+    background-color: var(--cor-nav);
+}
+
+nav.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+details {
+    padding: 20px;
+    width: 90%;
+    margin: 30px auto;
+
+    color: black;
+    font-size: 1.2em;
+    background-color: white;
+
+    border-radius: 7.5px;
+    box-shadow: 1px 1px 1px black;
+
+    text-indent: 0;
+    text-align: left;
+}
+
+summary:hover {
     text-decoration: underline;
 }
 
