@@ -15,22 +15,17 @@ var br = document.createElement('br')
 /* ----- Configurar Tags ----- */
 
 link_favicon.rel="shortcut icon" 
-link_favicon.href="../../2.imagens/phi-48-15-60.jpg"
+link_favicon.href="favicon.ico.jpg"
 link_favicon.type="image/x-icon"
 
-/*
-<link 
-        rel="shortcut icon" 
-        href="2.imagens/phi - 48-15-60.jpg" 
-        type="image/x-icon">
-*/
-
 h1_header.innerHTML = 'Paixões Filosóficas'
+
 a_header.href = "https://developerlucassouza.github.io/paixoes.filosoficas/"
 
 /* ----- Colocando em Prática ----- */
 
 head.appendChild(link_favicon)
 
-a_header.appendChild(h1_header)
 header.appendChild(a_header)
+a_header.appendChild(h1_header)
+
