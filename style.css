@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: SpecialElite;
-    src: url(3.fontes/SpecialElite-Regular.ttf);
+    src: url(4.fontes/SpecialElite-Regular.ttf);
 }
 
 :root {
@@ -181,7 +181,7 @@ nav.page {
 nav.page a {
     display: block;
     width: 20%;
-    max-width: 14px;
+    max-width: 40px;
     margin: 8px;
     margin-bottom: 10px;
     padding: 10px;
@@ -190,6 +190,7 @@ nav.page a {
 
     text-indent: 0%;
     text-decoration: none;
+    text-align: center;
 
     color: white;
     background-color: var(--cor-nav);
@@ -268,9 +269,6 @@ summary:hover {
 
 
 
-
-
-
 /* ===== Cabeçalho ===== */
 
 header {
@@ -302,3 +300,6 @@ main p {
     text-indent: 50px;
     text-align: justify;
 }
+
+/* ====== Id Bíblia */
+
