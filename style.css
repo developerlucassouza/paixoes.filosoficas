@@ -131,6 +131,10 @@ section.pensamentos p {
     text-align: left;
 }
 
+section.pensamentos a.autor {
+    font-size: 0.8em;
+}
+
 
 
 
@@ -198,7 +202,7 @@ nav.page a {
 }
 
 nav.page a.ativo {
-    background-color: blue;
+    background-color: rgb(200, 0, 0);
 }
 
 nav.page a:hover {
