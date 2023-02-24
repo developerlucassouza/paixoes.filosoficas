@@ -163,7 +163,7 @@ div.center {
     width: 100%;
 }
 
-div.center article.pensador {
+div.center div.pensador {
     display: inline-block;
     margin: 10px 5px;
 }
