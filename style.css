@@ -163,6 +163,7 @@ div.center {
     flex-wrap: wrap;
 
     width: 100%;
+    max-width: 1200px;
 }
 
 div.center div.pensador {
@@ -308,4 +309,3 @@ main p {
     text-indent: 50px;
     text-align: justify;
 }
-
